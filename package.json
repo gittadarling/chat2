@@ -15,8 +15,8 @@
     "socket.io": "^4.1.2"
   },
   "scripts": {
-    "install" : "npm install --save express monodb mongoose socket.io",
-    "start" : "node index.js"
+    "install" : "npm install --save nodemon express monodb mongoose socket.io",
+    "start" : "nodemon index.js"
   }
 }
 
